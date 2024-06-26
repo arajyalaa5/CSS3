@@ -1,0 +1,249 @@
+*{
+    box-sizing: border-box;
+}
+ #main{
+      background-color: black; 
+      text-align: center;
+} 
+
+.hyper{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border:2px solid black;
+    border-radius:25px;
+    padding:10px;
+    display:inline-block;
+}
+
+.box0{
+    width:40%;
+    display: inline-block;
+    border-style: solid;
+    text-align:center;
+    margin:40px;
+    padding:64px;
+    border-radius: 5px;
+}
+.box2,.box4{
+    width:40%;
+    display: inline-block;
+    text-align: center;
+    padding:20px;
+    margin:40px;
+    border-radius:5px;  
+}
+
+.box3{
+    width:20%;
+    display: inline-block;
+    text-align: center;
+    padding:20px;
+    margin:12px;
+    border-radius:5px;
+}
+
+#php{
+    background-color: #ffc0c7;
+}
+#jQuery{
+    background-color:  #FFF4A3; 
+}
+
+#java{
+    background-color: #F3ECEA;
+}
+
+#cplus{
+    background-color: #D9EEE1;
+}
+
+#w3{
+    background-color:#96D4D4;
+}
+#bootstrap{
+    background-color: #E7E9EB;
+}
+
+#c{
+    background-color: #FFC0C7;
+}
+
+#csharp{
+    background-color: #FFF4A3;
+}
+
+#react{
+    background-color: #FFC0C7;
+}
+
+#kotlin{
+    background-color: #F3ECEA ;
+}      
+#node{
+    background-color:#96D4D4;
+}
+
+#r{
+    background-color: #D9EEE1;
+}
+
+#json{
+    background-color: #FFF4A3;
+}
+
+#vue{
+    background-color: #D9EEE1;
+}
+
+#sql{
+     background-color: #F3ECEA;
+
+}
+
+#xml{
+    background-color: #96D4D4;
+}
+
+#sas{
+    background-color: #ffc0c7;
+
+}
+
+#icons{
+
+    background-color: #FFF4A3;
+
+}
+
+#rwd{
+    background-color: #F3ECEA;
+
+}
+
+#graph{
+    background-color: #D9EEE9;
+
+}
+
+#svg{
+    background-color: #96D4D4;
+}
+
+#canvas{
+     background-color: #ffc0c7;
+    
+}
+
+#Raspberry{
+    background-color: #FFF4A3;
+}
+
+#cyber{
+    background-color: #F3ECEA;    
+}
+
+
+#colors{
+    background-color: #D9EEE1;
+}
+
+#git{
+    background-color: #96D4D4;
+}
+
+#Matplotlib{
+    background-color: #ffc0c7;
+}
+
+#numpy{
+    background-color: #FFF4A3;
+}
+
+
+#pandas{
+    background-color: #F3ECEA;
+}
+
+#scipy{
+    background-color: #D9EEE1;
+}
+
+
+#asp{
+    background-color: #96D4D4;
+
+}
+
+#angular{
+    background-color: #ffc0c7;
+
+}
+
+#appml{
+    background-color:#FFF4A3;
+}
+
+#go{
+    background-color: #D9EEE9;
+
+}
+
+#type{
+    background-color: #F3ECEA;
+}
+
+#dj{
+    background-color: #96D4D4;
+}
+
+#ds{
+    background-color: #F3ECEA;
+}
+
+#ts{
+    background-color: #D9EEE9;
+}
+
+#ht{
+    background-color: #96D4D4;
+}
+
+#cg{
+    background-color: #ffc0c7;
+}
+
+#spaces{
+    background-color: #FFF4A3;
+}
+
+#id{
+    background-color: #F3ECEA;
+}
+#md{
+    background-color: #96D4D4;
+}
+#MongoDB{
+    background-color: #FFC0C7;
+}
+#stats{
+    background-color: #FFF4A3;
+}
+#post{
+    background-color: #D9EEE9;
+}
+      
+ #exel{
+    background-color: #96D4D4;
+ }
+         
+#dsa{
+    background-color: #FFF4A3;
+}
+#ml{
+    background-color: #FFC0C7;
+}
+
+#al{
+    background-color: #D9EEE1;
+}
