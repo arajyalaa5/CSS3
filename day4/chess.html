@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess</title>
+    <style>
+
+        table{
+            border: 2px solid #9c9898;
+        }
+        td{
+            padding:10px;
+        }
+        .white{
+            background-color:whitesmoke;
+            color: white;
+        }
+        .black{
+            background-color:#9c9898;
+            color:#9c9898;
+        }
+    
+        .white:hover{
+            background-color:darkslategray;
+        }
+
+        .black:hover{
+            background-color: rgb(162, 174, 95);
+        }
+
+    </style>
+</head>
+<body>
+    <center>
+    <div id="main">
+        <table>
+            <tr>
+                <td class="white"><img src="./images/rook-white.png" alt="knight-white" hight="20px" width="30px"></td>
+                <td class="black"><img src="./images/knight-white.png" alt="knight-white" hight="20px" width="30px"></td>
+                <td class="white"><img src="./images/bishop-white.png" alt="knight-white" hight="20px" width="30px"></td>
+                <td class="black"><img src="./images/queen-white.png" alt="knight-white" hight="20px" width="30px"></td>
+                <td class="white"><img src="./images/king-white.png" alt="knight-white" hight="20px" width="30px"></td>
+                <td class="black"><img src="./images/bishop-white.png" alt="knight-white" hight="20px" width="30px"></td>
+                <td class="white"><img src="./images/knight-white.png" alt="knight-white" hight="20px" width="30px"></td>
+                <td class="black"><img src="./images/rook-white.png" alt="knight-white" hight="20px" width="30px"></td>
+            </tr>
+            <tr>
+                <td class="black"><img src="./images/pawn-white.png" alt="pawn" hight="20px" width="30px"></td>
+                <td class="white"><img src="./images/pawn-white.png" alt="pawn" hight="20px" width="30px"></td>
+                <td class="black"><img src="./images/pawn-white.png" alt="pawn" hight="20px" width="30px"></td>
+                <td class="white"><img src="./images/pawn-white.png" alt="pawn" hight="20px" width="30px"></td>
+                <td class="black"><img src="./images/pawn-white.png" alt="pawn" hight="20px" width="30px"></td>
+                <td class="white"><img src="./images/pawn-white.png" alt="pawn" hight="20px" width="30px"></td>
+                <td class="black"><img src="./images/pawn-white.png" alt="pawn" hight="20px" width="30px"></td>
+                <td class="white"><img src="./images/pawn-white.png" alt="pawn" hight="20px" width="30px"></td>
+
+            </tr>
+            <tr>
+                <td class="white">1</td>
+                <td class="black">2</td>
+                <td class="white">3</td>
+                <td class="black">4</td>
+                <td class="white">5</td>
+                <td class="black">6</td>
+                <td class="white">7</td>
+                <td class="black">8</td>
+            </tr>
+            <tr>
+                <td class="black">9</td>
+                <td class="white">10</td>
+                <td class="black">11</td>
+                <td class="white">12</td>
+                <td class="black">13</td>
+                <td class="white">14</td>
+                <td class="black">15</td>
+                <td class="white">16</td>
+            </tr>
+            <tr>
+                <td class="white">17</td>
+                <td class="black">18</td>
+                <td class="white">19</td>
+                <td class="black">20</td>
+                <td class="white">21</td>
+                <td class="black">22</td>
+                <td class="white">23</td>
+                <td class="black">24</td>
+            </tr>
+            <tr>
+                <td class="black">25</td>
+                <td class="white">26</td>
+                <td class="black">27</td>
+                <td class="white">28</td>
+                <td class="black">29</td>
+                <td class="white">30</td>
+                <td class="black">31</td>
+                <td class="white">32</td>
+            </tr>
+            <tr>
+                <td class="white"><img src="./images/pawn-black.png" alt="pawn" hight="10px" width="30px"></td>
+                <td class="black"><img src="./images/pawn-black.png" alt="pawn" hight="10px" width="30px"></td>
+                <td class="white"><img src="./images/pawn-black.png" alt="pawn" hight="10px" width="30px"></td>
+                <td class="black"><img src="./images/pawn-black.png" alt="pawn" hight="10px" width="30px"></td>
+                <td class="white"><img src="./images/pawn-black.png" alt="pawn" hight="10px" width="30px"></td>
+                <td class="black"><img src="./images/pawn-black.png" alt="pawn" hight="10px" width="30px"></td>
+                <td class="white"><img src="./images/pawn-black.png" alt="pawn" hight="10px" width="30px"></td>
+                <td class="black"><img src="./images/pawn-black.png" alt="pawn" hight="10px" width="30px"></td>
+            </tr>
+
+            <tr>
+                <td class="black"><img src="./images/Rook-black.png" alt="knight-white" hight="10px" width="30px"></td>
+                <td class="white"><img src="./images/knight-black.png" alt="knight-white" hight="10px" width="30px"></td>
+                <td class="black"><img src="./images/bishop-black.png" alt="knight-white" hight="10px" width="30px"></td>
+                <td class="white"><img src="./images/queen-black.png" alt="knight-white" hight="10px" width="30px"></td>
+                <td class="black"><img src="./images/king-black.png" alt="knight-white" hight="10px" width="30px"></td>
+                <td class="white"><img src="./images/bishop-black.png" alt="knight-white" hight="10px" width="30px"></td>
+                <td class="black"><img src="./images/knight-black.png" alt="knight-white" hight="10px" width="30px"></td>
+                <td class="white"><img src="./images/Rook-black.png" alt="knight-white" hight="10px" width="30px"></td>
+            </tr>
+            <h1><u>CHESS-BOARD</u></h1>
+        </table>
+    </div>
+</center>
+</body>
+</html>
