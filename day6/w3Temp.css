@@ -1,0 +1,283 @@
+*{
+    box-sizing: border-box;
+}
+ #main{
+      background-color: black; 
+      text-align: center;
+} 
+
+.hyper{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border:2px solid black;
+    border-radius:25px;
+    padding:10px;
+    display:inline-block;
+}
+
+.box0{
+    width:40%;
+    display: inline-block;
+    border-style: solid;
+    text-align:center;
+    margin:40px;
+    padding:64px;
+    border-radius: 5px;
+}
+.box2,.box4{
+    width:40%;
+    display: inline-block;
+    text-align: center;
+    padding:20px;
+    margin:40px;
+    border-radius:5px;  
+}
+
+.box3{
+    width:20%;
+    display: inline-block;
+    text-align: center;
+    padding:20px;
+    margin:12px;
+    border-radius:5px;
+}
+
+#php{
+    background-color: #ffc0c7;
+}
+#jQuery{
+    background-color:  #FFF4A3; 
+}
+
+#java{
+    background-color: #F3ECEA;
+}
+
+#cplus{
+    background-color: #D9EEE1;
+}
+
+#w3{
+    background-color:#96D4D4;
+}
+#bootstrap{
+    background-color: #E7E9EB;
+}
+
+#c{
+    background-color: #FFC0C7;
+}
+
+#csharp{
+    background-color: #FFF4A3;
+}
+
+#react{
+    background-color: #FFC0C7;
+    text-align:left;
+}
+
+#kotlin{
+    background-color: #F3ECEA ;
+    text-align:center;
+}      
+#node{
+    background-color:#96D4D4;
+    text-align:right;
+}
+
+#r{
+    background-color: #D9EEE1;
+    text-align:justify;
+}
+
+#json{
+    background-color: #FFF4A3;
+    text-align:right;
+}
+
+#vue{
+    background-color: #D9EEE1;
+    text-align:left;
+}
+
+#sql{
+     background-color: #F3ECEA;
+     text-align:center;
+
+}
+
+#xml{
+    background-color: #96D4D4;
+    text-align:justify;
+}
+
+#sas{
+    background-color: #ffc0c7;
+    text-align:left;
+
+}
+
+#icons{
+
+    background-color: #FFF4A3;
+    text-align:right;
+
+}
+
+#rwd{
+    background-color: #F3ECEA;
+    text-align:center;
+
+}
+
+#graph{
+    background-color: #D9EEE9;
+    text-align:justify;
+
+}
+
+#svg{
+    background-color: #96D4D4;
+    text-decoration:4px solid rgb(239, 126, 50) underline;
+}
+
+#canvas{
+     background-color: #ffc0c7;
+     text-decoration:4px dashed rgb(239, 126, 50) overline;
+    
+}
+
+#Raspberry{
+    background-color: #FFF4A3;
+    text-decoration:4px dotted rgb(239, 126, 50) line-through;
+}
+
+#cyber{
+    background-color: #F3ECEA;  
+    text-decoration:4px wavy rgb(239, 126, 50)  underline;
+}
+
+
+#colors{
+    background-color: #D9EEE1;
+    text-decoration:4px double rgb(239, 126, 50) overline;
+}
+
+#git{
+    background-color: #96D4D4;
+    text-decoration:4px wavy rgb(239, 126, 50) underline overline;
+}
+
+#Matplotlib{
+    background-color: #ffc0c7;
+    text-decoration:4px dashed rgb(239, 126, 50) line-through underline;
+}
+
+#numpy{
+    background-color: #FFF4A3;
+    text-decoration:4px dotted rgb(239, 126, 50) overline underline;
+}
+
+#pandas{
+    background-color: #F3ECEA;
+    text-decoration:6px solid rgb(245, 192, 45) underline;
+}
+
+#scipy{
+    background-color: #D9EEE1;
+    text-decoration:6px dashed rgb(245, 192, 45) overline;
+}
+
+
+#asp{
+    background-color: #96D4D4;
+    text-decoration:6px dotted rgb(239, 126, 50) line-through;
+
+}
+
+#angular{
+    background-color: #ffc0c7;
+    text-decoration: 6px double rgb(245, 192, 45) overline;
+
+}
+
+#appml{
+    background-color:#FFF4A3;
+    text-shadow:2px 0px 2px rgb(0, 0, 255);
+}
+
+#go{
+    background-color: #D9EEE9;
+    text-shadow:-4px 0px 2px rgb(11, 3, 16);
+    
+
+}
+
+#type{
+    background-color: #F3ECEA;
+    text-shadow:2px 2px 2px rgba(206,89,55);
+}
+
+#dj{
+    background-color: #96D4D4;
+    text-shadow: 0px 0px 4px gold;
+}
+
+#ds{
+    background-color: #F3ECEA;
+    text-shadow:-2px -3px 1px rgb(21, 9, 2);
+}
+
+#ts{
+    background-color: #D9EEE9;
+    text-shadow:-4px -4px 3px rgb(21, 9, 2);
+}
+
+#ht{
+    background-color: #96D4D4;
+    text-shadow:3px 3px 2px rgb(245, 245, 245);
+}
+
+#cg{
+    background-color: #ffc0c7;
+    text-shadow:-2px 0px 2px rgb(214, 183, 12);
+}
+
+#spaces{
+    background-color: #FFF4A3;
+    text-shadow:-2px 0px 2px rgb(21, 9, 2);
+}
+
+#id{
+    background-color: #F3ECEA;
+    text-shadow:-2px 0px 2px rgb(156, 18, 206);
+}
+#md{
+    background-color: #96D4D4;
+    text-shadow:-2px 0px 2px rgb(21, 9, 2);
+}
+#stats{
+    background-color: #FFF4A3;
+    text-shadow:-4px 3px 2px rgb(21, 9, 2),-2px 0px 3px rgb(10, 10, 9);;
+}
+#post{
+    background-color: #D9EEE9;
+    text-shadow:-2px 2px 2px rgb(12, 157, 219);
+}
+      
+ #exel{
+    background-color: #96D4D4;
+ }
+         
+#dsa{
+    background-color: #FFF4A3;
+}
+#ml{
+    background-color: #FFC0C7;
+}
+
+#al{
+    background-color: #D9EEE1;
+}
