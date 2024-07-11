@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+PL:wght@100..400&display=swap" rel="stylesheet">
+    <style>
+
+        .bx1:hover{
+            transform: translateX(100px);
+        }
+
+        .bx2:hover{
+            transform: translateY(100px) ;
+        }
+
+        .bx3:hover{
+            transform:translate(100px, 100px);
+        }
+
+        .bx4:hover{
+            transform:scaleX(1.5);
+        }
+
+        .bx5:hover{
+            transform:scaleY(1.5);
+        }
+        .bx6:hover{
+            transform:scale(1.5,1.5);
+        }
+        .bx7:hover{
+            transform:rotateX(100deg)
+        }
+        .bx8:hover{
+            transform:rotateY(180deg)
+        }
+
+        .bx9:hover{
+            transform:rotate3d(1,1,1,90deg)
+        }
+
+        .bx10:hover{
+            transform:skewX(17deg);
+        }
+
+        .bx11:hover{
+            transform:skewY(-17deg);
+        }
+
+        .bx12:hover{
+            transform:skew(17deg, 13deg);
+        }
+
+        .bx13:hover{
+            transform:translate(100px) scale(1.1) rotate(17deg);
+        }
+
+
+
+        body{
+            text-align: center;
+            box-sizing: border-box;
+            margin:0;
+            padding:0;
+            
+        }
+       div{
+        width:200px;
+        height:40vh;
+        display: inline-block;
+        text-align: center;
+        padding:10px;
+        margin:12px;
+        /* border:1px solid rgb(210, 18, 18); */
+        border-radius:2px;
+        }
+        h1{
+            font-size:40px;
+            font-weight:900;
+            box-shadow: 10px 5px 10px orange ;
+            background-color: rgb(84, 37, 101);
+            padding:10px;
+            color:white;
+        }
+
+        p{
+            font-family: "Playwrite PL", cursive;
+
+        }
+
+        #it1:hover{  
+            font-family: sans-serif;
+        }
+        #it2:hover{  
+            font-family: monospace;
+        }
+        #it3:hover{  
+            font-family: cursive;
+        }
+        #it4:hover{  
+            font-family: fantasy;
+        }
+        #it5:hover{  
+            font-family: arial;
+        }
+        #it6:hover{  
+            font-family: Verdana;
+        }
+        #it7:hover{  
+            font-family: tahoma;
+        }
+        #it8:hover{  
+            font-family: Georgia;
+        }
+        #it9:hover{  
+            font-family: 'Courier New';
+        }
+       
+        #it10:hover{  
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+
+        .bx1,.bx2,.bx3,.bx4,.bx4,.bx5,.bx6,.bx7,.bx8,.bx9,.bx10,.bx11,.bx12,.bx13{
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+  
+    </style>
+</head>
+<body>
+
+    <h1>Transforms</h1>
+    <p>When you choose us, you'll feel the benefit of 10 years' experience of Web Development. Because we know the digital world and we know that how to handle it. With working knowledge of online, SEO and social media.</p>
+
+    <div class="bx1">
+        <h2 id="it1">TranslateX(x)</h2>
+    </div>
+    <div class="bx2">
+        <h2 id="it2">TranslateY(y)</h2>
+    </div>
+    <div class="bx3">
+        <h2 id="it3">Translate(x,y)</h2>
+    </div>
+    <div class="bx4">
+        <h2 id="it4">ScaleX(x)</h2>
+    </div>
+    <div class="bx5">
+        <h2 id="it5">ScaleY(y)</h2>
+    </div>
+    <div class="bx6">
+        <h2 id="it6">Scale(x,y)</h2>
+    </div>
+    <div class="bx7">
+        <h2 id="it7">RotateX(x)</h2>
+    </div>
+    <div class="bx8">
+        <h2 id="it8">RotateY(y)</h2>
+    </div>
+    <div class="bx9">
+        <h2 id="it9">Rotate(x,y)</h2>
+    </div>
+    
+    <div class="bx10">
+        <h2 id="it10">SkewX(x)</h2>
+    </div>
+
+    <div class="bx11">
+        <h2 id="it11">SkewY(y)</h2>
+    </div>
+
+    <div class="bx12">
+        <h2 id="it12">Skew(x,y)</h2>
+    </div>
+
+    <div class="bx13">
+        <h2 id="it13">Multi Transform</h2>
+    </div>
+</body>
+</html>
