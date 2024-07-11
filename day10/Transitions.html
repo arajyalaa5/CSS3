@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+PL:wght@100..400&display=swap" rel="stylesheet">
+    <style>
+        .bx1{
+            background-color: rgb(226, 98, 43);
+            transition-property:background-color;
+            transition-duration:1s;
+            transition-delay:1s;
+        }
+        .bx1:hover{
+            /* transform: translateX(100px); */
+            background-color: rgb(56, 41, 147);
+        }
+
+        .bx2{
+            border:8px solid #9546bd;
+            transition-property:border;
+            transition-duration:2s;
+        }
+        .bx2:hover{
+            border:2px solid rgb(4, 105, 135);
+        }
+
+        .bx3{
+            background-color: rgb(226, 98, 43);
+            border:2px dotted black;
+            width:150px;
+            transition-property:all;
+            transition-duration:1s;
+            transition-delay:1s;
+            transition-timing-function: ease;
+        }
+
+        .bx3:hover{
+            width:500px;
+            border:4px solid rgb(14, 3, 3);
+            background-color: crimson;  
+        }
+
+        .bx4{
+            background-color: rgb(226, 98, 43);
+            border:2px dotted black;
+            width:150px;
+            transition-property:all;
+            transition-duration:1s;
+            transition-delay:1s;
+            transition-timing-function: ease-in;
+
+        }
+
+        .bx4:hover{
+            /* transform:scaleX(1.5); */
+            width:500px;
+            border:4px solid rgb(18, 17, 17);
+            background-color: crimson;
+        }
+
+        .bx5{
+            background-color: rgb(226, 98, 43);
+            border:2px dotted black;
+            width:150px;
+            transition-property:all;
+            transition-duration:1s;
+            transition-delay:1s;
+            transition-timing-function: ease-out;
+        }
+        .bx5:hover{
+            /* transform:scaleY(1.5); */
+            width:500px;
+            border:4px solid rgb(11, 11, 11);
+            background-color: crimson;
+        }
+
+        .bx6{
+            background-color: rgb(226, 98, 43);
+            border:2px dotted black;
+            width:150px;
+            transition-property:all;
+            transition-duration:1s;
+            transition-delay:1s;
+            transition-timing-function: ease-in-out;
+        }
+        .bx6:hover{
+            transform:scale(1.5,1.5);
+            width:500px;
+            border:4px solid rgb(11, 11, 11);
+            background-color: crimson;
+        }
+        .bx7{
+            background-color: rgb(226, 98, 43);
+            border:2px dotted black;
+            width:150px;
+            transition-property:all;
+            transition-duration:1s;
+            transition-delay:1s;
+            transition-timing-function: linear;
+        }
+        .bx7:hover{
+            /* transform:rotateX(100deg) */
+            transform:scale(1.5,1.5);
+            width:500px;
+            border:4px solid rgb(11, 11, 11);
+            background-color: crimson;
+        }
+        .bx8:hover{
+            /* transform:rotateY(180deg) */
+            transform:scale(1.5,1.5);
+            width:500px;
+            border:4px solid rgb(11, 11, 11);
+            background-color: crimson;
+        }
+
+        .bx8{
+            background-color: rgb(226, 98, 43);
+            border:2px dotted black;
+            width:150px;
+            transition-property:all;
+            transition-duration:1s;
+            transition-delay:1s;
+            transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1)5;
+        }
+
+        .bx9:hover{
+            transform:rotate3d(1,1,1,90deg)
+        }
+
+        .bx10:hover{
+            transform:skewX(17deg);
+        }
+
+        .bx11:hover{
+            transform:skewY(-17deg);
+        }
+
+        .bx12:hover{
+            transform:skew(17deg, 13deg);
+        }
+
+        .bx13:hover{
+            transform:translate(100px) scale(1.1) rotate(17deg);
+        }
+
+        body{
+            text-align: center;
+            box-sizing: border-box;
+            margin:0;
+            padding:0;
+            text-align:center;
+        }
+
+       div{
+        width:200px;
+        height:40px;
+        text-align: center;
+        padding:10px;
+        margin:30px;
+         border-radius:2px;
+        } 
+        h1{
+            font-size:40px;
+            font-weight:900;
+            box-shadow: 10px 5px 10px orange ;
+            background-color: rgb(84, 37, 101);
+            padding:10px;
+            color:white;
+        }
+
+        p{
+            font-family: "Playwrite PL", cursive;
+
+        }
+
+        #it1:hover{  
+            font-family: sans-serif;
+        }
+        #it2:hover{  
+            font-family: monospace;
+        }
+        #it3:hover{  
+            font-family: cursive;
+        }
+        #it4:hover{  
+            font-family: fantasy;
+        }
+        #it5:hover{  
+            font-family: arial;
+        }
+        #it6:hover{  
+            font-family: Verdana;
+        }
+        #it7:hover{  
+            font-family: tahoma;
+        }
+        #it8:hover{  
+            font-family: Georgia;
+        }
+        #it9:hover{  
+            font-family: 'Courier New';
+        }
+       
+        #it10:hover{  
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+
+        .bx1,.bx2,.bx3,.bx4,.bx4,.bx5,.bx6,.bx7,.bx8,.bx9,.bx10,.bx11,.bx12,.bx13{
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+  
+    </style>
+</head>
+<body>
+
+    <h1>Transitions</h1>
+    <!-- <p>When you choose us, you'll feel the benefit of 10 years' experience of Web Development. Because we know the digital world and we know that how to handle it. With working knowledge of online, SEO and social media.</p> -->
+
+    <div class="bx1">
+        <h2 id="it1">BG Color</h2>
+    </div>
+    <div class="bx2">
+        <h2 id="it2">Border</h2>
+    </div>
+    <div class="bx3">
+        <h2 id="it3">ease</h2>
+    </div>
+    <div class="bx4">
+        <h2 id="it4">ease-in</h2>
+    </div>
+    <div class="bx5">
+        <h2 id="it5">ease-out</h2>
+    </div>
+    <div class="bx6">
+        <h2 id="it6">ease-in-out</h2>
+    </div>
+    <div class="bx7">
+        <h2 id="it7">linear</h2>
+    </div>
+    <div class="bx8">
+        <h2 id="it8">cubic-bezier</h2>
+    </div>
+    
+</body>
+</html>
