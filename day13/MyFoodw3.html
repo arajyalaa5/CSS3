@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Food</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karma:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+   <style>
+
+    body{
+        margin:0;
+        font-family: "Karma", serif; 
+    }
+
+    #main{
+        position:relative;
+    }
+
+    .nav{
+        display:flex;
+        align-items: center;
+        justify-content: space-around;
+        padding:15px;
+        background: linear-gradient(45deg,#5f077a,#dfb47b);
+        color:white;
+        font-size: 24px;
+        position: fixed;
+        top:0;
+        left:0;
+        width:100%;
+
+    }
+
+    img{
+        width:100%;
+    }
+    .food{
+        margin-top:150px;
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: space-around;
+       
+    }
+
+    .food>div{
+        width: 260px;
+        margin: 10px;
+    }
+
+    .food-caption{
+        font-size: 24px;
+        line-height: 36px;
+        text-align:center;
+        padding-bottom: 10px;
+        background: linear-gradient(90deg,#dfb47b,#5f077a);
+        background-clip: text;
+        color: transparent;
+        -webkit-text-fill-color: transparent; 
+        font-weight: 600;
+        
+    }
+
+    .description{
+        font-size: 15px;
+        text-align:center;
+        line-height: 22.5px;
+    }
+
+    .pagination-child{
+        text-align:center;
+        margin:50px 0px;
+    }
+
+    .bar-item{
+        text-decoration:none;
+        font-size:22px;
+        padding:15px;
+        color: black;  
+    }
+    .bar-item:hover{
+        background: linear-gradient(45deg,#5f077a,#dfb47b);   
+    }
+
+    hr{
+        opacity:0.2;
+    }
+
+    .chef{
+        text-align: center;
+    }
+
+    .footer{
+        display:flex;
+        
+
+    }
+    .footer>div{
+        flex-basis: 33%;
+    }
+
+    li{
+        list-style-type: none;
+    }
+
+   .tag{
+    display: inline-block;
+    padding:2px;
+    background: linear-gradient(45deg,#5f077a,#dfb47b);
+    color: white;
+    text-align:center;
+    width:50px;
+    font-size: 12px;
+   }
+
+   .inner-body{
+    margin:54px;
+   }
+
+   img:hover{
+    transform: scale(1.1,1.1);
+
+   }
+
+
+   i{
+    font-weight: 200;
+    font-size: 15px;
+   }
+
+   b{
+    font-size:20px;
+   }
+   
+   /* .posts{
+    display: flex;
+    align-items: center;
+   }
+
+   .image-container{
+    margin:10px;
+   } */
+
+   </style>
+    
+</head>
+<body>
+       <div id="main">
+
+        <!--Menu-->
+        <div class="nav">
+            <div id="item1"><svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#5f636"><path d="m165-120-42-42 420-420q-22-48-10-99.5t57-96.5q45-44 109-56.5T804-806q42 42 28.5 105T772-590q-41 42-91.5 55t-94.5-6l-67 67 312 312-42 42-312-312-312 312Zm125-351L171-590q-51-51-53-121t46-124l245 245-119 119Z"/></svg></div>
+            <div id="item2">My Food</div>
+            <div id="item3">Mail</div>
+            </div>
+        </div>
+        
+       
+        <div class="inner-body">
+        <!--Photo Grid-->
+        <div class="food">
+
+        <div class="f1">
+            <img src="https://cdn.pixabay.com/photo/2024/04/06/04/15/ai-generated-8678599_640.jpg" height="385px">
+            <div class="food-caption">The Perfect Sandwich, A Real NYC Classic</div>
+            <div claa="description">Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</div>
+        </div>
+
+        
+         <div class="f2">
+         <img src="https://www.w3schools.com/w3images/steak.jpg">
+         <div class="food-caption">Let Me Tell You About This Steak</div>
+         <div class="description">Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</div>
+         </div>
+
+        <div class="f3">
+                <img src="https://www.w3schools.com/w3images/cherries.jpg">
+                <div class="food-caption">Cherries, interrupted</div>
+                <div class="description">Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</div>
+             </div>
+
+        
+            <div class="f4">
+                <img src="https://www.w3schools.com/w3images/wine.jpg">
+                <div class="food-caption">Once Again, Robust Wine and Vegetable Pasta</div>
+                <div class="description">Lorem ipsum text praesent tincidunt ipsum lipsum.
+
+                    What else?</div>
+            </div>
+
+            <div class="f5">
+                <img src="https://www.w3schools.com/w3images/popsicle.jpg">
+                <div class="food-caption">All I Need Is a Popsicle</div>
+                <div class="description">Lorem ipsum text praesent tincidunt ipsum lipsum</div>
+            </div>
+            <div class="f6">
+                <img src="https://www.w3schools.com/w3images/salmon.jpg">
+                <div class="food-caption">Salmon For Your Skin</div>
+                <div class="description">Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</div>
+       
+            </div>
+
+    
+            <div class="f1">
+                <img src="https://img.freepik.com/free-photo/high-angle-triangle-salad-tomatoes-sandwiches_23-2148640150.jpg" height="385px">
+                <div class="food-caption">The Perfect Sandwich, A Real Classic</div>
+                <div class="description">Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</div>
+            </div>
+ 
+                <div class="f1">
+                    <img src="https://www.w3schools.com/w3images/croissant.jpg">
+                    <div class="food-caption">Le French</div>
+                    <div class="description">Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</div>
+               </div>
+        </div>
+
+         <!-- Pagination -->
+     <div class="pagination">
+     <div class="pagination-child">
+      <a href="#" class="bar-item" style="background: linear-gradient(45deg,#5f077a,#dfb47b);">&laquo;</a>
+      <a href="#" class="bar-item">1</a>
+      <a href="#" class="bar-item">2</a>
+      <a href="#" class= "bar-item">3</a>
+      <a href="#" class="bar-item">4</a>
+      <a href="#" class="bar-item">&raquo;</a>
+    </div>
+  </div>
+  
+  <hr id="about">
+
+  <!-- About Section -->
+  <div class="chef">  
+    <h3>About Me, The Food Man</h3><br>
+    <img src="https://www.w3schools.com/w3images/chef.jpg" style="width:500px" >
+    <div class="About-chef">
+      <h4><b>I am Who I Am!</b></h4>
+      <h6><i>With Passion For Real, Good Food</i></h6>
+      <p>Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+    </div>
+  </div>
+  <hr>
+  
+  <!-- Footer -->
+  <div class="footer">
+    <div>
+      <h3>FOOTER</h3>
+      <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </div>
+  
+    <div class="posts">
+      <h3>BLOG POSTS</h3> 
+      <ul>
+        <li>
+           <img class="image-container" src="https://www.w3schools.com/w3images/workshop.jpg" style="width:50px">
+            <span class="sp">Lorem</span><br>
+            <span class="sp">Sed mattis nunc</span>
+        </li>
+      </ul>
+        <hr>
+
+        <ul>
+            <img class="image-container" src="https://www.w3schools.com/w3images/gondol.jpg" style="width:50px">
+            <span>Ipsum</span><br>
+            <span>Praes tinci sed</span>
+        </ul>
+    </div>
+
+    <div class="tags">
+      <h3>POPULAR TAGS</h3>
+      <p>
+        <p class="tag" style="background-color: black;">Travel</p>
+        <p class="tag">New York</p>
+         <p class="tag">Dinner</p>
+        <p class="tag">Salmon</p> 
+        <p class="tag">France</p> 
+        <p class="tag">Drinks</p>
+        <p class="tag">Ideas</p> 
+        <p class="tag">Flavors</p>
+        <p class="tag">Cuisine</p>
+        <p class="tag">Chicken</p> 
+        <p class="tag">Dressing</p> 
+        <p class="tag">Fried</p>
+        <p class="tag">Fish</p>
+        <p class="tag">Duck</p>
+      </p>
+    </div>
+  </footer>
+
+ </div>
+ </div>
+
+</body>
+</html>
