@@ -1,0 +1,70 @@
+<!--Image gallary using Grid-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <style>
+
+        body{
+            padding:0;
+            margin:0;
+        }
+
+        *{
+            box-sizing: border-box;
+        }
+
+        .container{
+            display:grid;
+            flex-direction: coloumn;
+            justify-content: center;
+            grid-template-columns: 100px 100px 100px;
+            column-gap: 110px;
+            margin-top: 30px;
+           
+        }
+
+          
+
+
+         /* #item5{
+            grid-row: span 2;
+        } 
+
+        #item6{
+            grid-row:span 2;
+        }  */
+
+        #item2{
+            grid-column:span 2;
+        } 
+
+        #item4{
+            grid-row: span 2;
+        }
+
+        #item5{
+            grid-row:span 2;
+        }
+        
+         
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item" id="item1"><img src="https://t4.ftcdn.net/jpg/05/82/15/65/360_F_582156555_hbyp1b5f45xGtOp2PPDngIOX4YKv7tZF.jpg" style="width:200px" height="130px"></div>
+        <div class="item" id="item2"><img src="https://www.shutterstock.com/image-illustration/paint-abstract-texture-watercolor-flowers-600nw-2351669081.jpg" style="width:410px" height="130px"></div>
+        <div class="item" id="item3"><img src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSejGNq3LJ9OCPFF61o7xA47Q6pLqLg0e0ibQ&s" style="width:200px" height="130px"></div>
+        <div class="item" id="item4"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgG5MaNdOP6FQhIoT5-ikpiV4Lrbr4jeUn7A&s" style="width:200px" height="260px"></div>        
+        <div class="item" id="item5"><img src="https://m.media-amazon.com/images/I/81vYpvjFbRL._AC_UF1000,1000_QL80_.jpg" style="width:200px" height="260px"></div>
+        <div class="item" id="item6"><img src="https://as1.ftcdn.net/v2/jpg/02/15/04/56/1000_F_215045631_QlDohW50aEqBuKDZ2oEQOXIokEsQqHC6.jpg" style="width:200px"></div>
+        <div class="item" id="item7"><img src="https://i.pinimg.com/564x/5f/dd/ef/5fddef538f52ae8fc202e9af5a957fa9.jpg" style="width:200px" height="130px"></div>
+        <div class="item" id="item8"><img src="https://pbs.twimg.com/media/Fz-V-aaXwAEf_61?format=jpg&name=large" style="width:200px" height="130px"></div>
+        <div class="item" id="item9"><img src="https://img.freepik.com/premium-photo/candy-colored-wallpaper-with-playful-combination-flowers_925062-922.jpg" style="width:200px" height="130px" ></div>
+        
+        <!-- <img src="https://www.artsupplies.co.uk/blog/wp-content/uploads/2019/06/portrait-painting-in-watercolours.jpg" style="width:200px"  height="130px"> -->
+    </div>
+</body>
