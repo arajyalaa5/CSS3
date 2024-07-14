@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <style>
+
+        *{
+            padding: 0;
+            margin: 0;
+            font-family: system-ui;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            width: 100vw;
+            background: url(bg2.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            position:relative;
+
+        }
+
+        .frame {
+            height: 400px;
+            width: 370px;
+            backdrop-filter: blur(5px);
+            border: 1px solid white;
+            display: flex; 
+            flex-direction: column;
+            justify-content: flex-end;
+            border-radius: 10px;
+            box-shadow: 0px 0px 5px white;
+            position:absolute;
+            top:130px;
+            left:800px;
+        }
+        
+        .bar{
+            display: flex; 
+            position: relative;     
+        }
+
+        .music{
+            background:linear-gradient(45deg,#fff,#111); 
+            padding:8px; 
+            width:10px;
+            height: 70px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; 
+            margin: 0 4px;
+            position: absolute;
+            bottom:0;
+            right: 10px;      
+        }
+
+       
+        #m1{
+            position: absolute;
+            bottom:0;
+            right: 320px;
+            animation:move 1s linear 0.32s infinite;
+        }
+
+        #m2{
+            position: absolute;
+            bottom:0.2;
+            right: 290px;
+            animation:move 1s linear 0.5s infinite;
+        }
+
+        #m3{
+            position: absolute;
+            bottom:0;
+            right: 260px;
+            animation:move 1s linear 0.7s infinite;
+           
+        }
+
+        #m4{
+            position: absolute;
+            bottom:0;
+            right: 230px;
+            animation:move 0.5s linear 0s infinite;
+        }
+
+        #m5{
+            position: absolute;
+            bottom:0;
+            right: 200px;
+            animation:move 1s linear 0.32s infinite;
+        }
+
+        #m6{
+            position: absolute;
+            bottom:0;
+            right: 170px;
+            animation:move 1s linear 0.5s infinite;
+        }
+
+        #m7{
+            position: absolute;
+            bottom:0;
+            right: 140px;
+            animation:move 1s linear 0.7s infinite
+        }
+
+        #m8{
+            position: absolute;
+            bottom:0;
+            right: 110px;
+            animation:move 1s linear 0.32s infinite;
+        }
+
+        #m9{
+            position: absolute;
+            bottom:0;
+            right: 80px;
+            animation:move 1s linear 0.7s infinite;
+        }
+
+        #m10{
+            position: absolute;
+            bottom:0;
+            right: 50px;
+            animation:move  0.5s linear 0s infinite;
+        }
+
+        #m11{
+            position: absolute;
+            bottom:0;
+            right: 20px;
+            animation:move 1s ease-in-out 0.5s infinite;
+        }
+
+        @keyframes move{
+            from{
+                height: 70px;
+            }
+            to{
+                height: 180px;
+    }
+}
+
+img{
+    height: 150px;
+    width:150px;
+   border-radius: 100%; 
+   animation-name: rotate;
+   animation-duration: 80s;
+   animation-iteration-count: infinite; 
+   position: absolute;
+   bottom:230px;
+   right: 130px;
+}
+
+@keyframes rotate{
+    from{
+        transform: rotate(360deg);
+    }
+    to{
+        transform: rotate(-360deg);
+    }
+}
+
+audio{
+    height: 30px;
+    width:80px;
+    position: absolute;
+    bottom:190px;
+    right: 160px;
+
+}
+marquee{
+    position: absolute;
+}
+    </style> 
+</head>
+<body>
+
+    <div class="frame">
+            
+        <div class="roll">
+            <img src="bg2.jpg"> 
+            <marquee behavior="" direction="right" width="300px">Eee Rathalee...</marquee>
+            <audio controls autoplay>
+                <source src="./[iSongs.info] 01 - Ee Raathale.mp3">
+            </audio>
+       </div>
+            <div class="bar">
+            <div class="music" id="m1"></div>
+            <div class="music" id="m2"></div>
+            <div class="music" id="m3"></div>
+            <div class="music" id="m4"></div>
+            <div class="music" id="m5"></div>
+            <div class="music" id="m6"></div>
+            <div class="music" id="m7"></div>
+            <div class="music" id="m8"></div>
+            <div class="music" id="m9"></div>
+            <div class="music" id="m10"></div>
+            <div class="music" id="m11"></div>
+            </div>
+    </div>
+</body>
+</html>
