@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-Box</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+       
+        .main{
+            margin-top: 80px;
+        }
+        .main1{
+            display:flex;
+            justify-content: space-evenly;
+            margin-bottom: 20px;
+        }
+
+        .container{
+            background-color: #fff;
+            width:300px;
+            height:150px;
+            padding: 20px;
+            border: 2px solid #1c1919;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        
+        }
+
+        .item1{
+            display: flex;
+            gap:10px;
+        } 
+        
+        .item2{
+            padding-bottom:10px;
+            word-spacing: -2px;
+            
+        }
+        .item3{
+            display:flex;
+            justify-content: space-between; 
+        }
+
+        .main2{
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .item1a{
+            line-height: 0.2;
+        }
+
+        .name{
+            font-size: 18px;
+            font-weight: 520;
+        }
+
+        .service{
+            opacity: 0.60;
+            font-size: 18px;
+        }
+
+        .item3a{
+            font-weight: 600px;
+
+        }
+        .item3b{
+            color: rgb(53, 116, 211);
+        }
+
+        #img1{
+            border-radius: 5px;
+        }
+
+        i{
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+    <div class="main1">
+    <div class="container">
+        <div class="item1">
+            <div>
+                <img  id="img1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd0tpPUn3i_x5jgRcENKrC5S0hfUNU1tUQRA&s" alt="stripe" style="height:80px">
+            </div>
+            <div class="item1a">
+                <p class="name">Stripe</p>
+                <p class="service">Payment Services</p>
+                <p class="rating"><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i></p>
+            </div>
+        </div>
+        <div class="item2"><b>Get More Context on your users with stripe date inside our platform.</b></div>
+        <div class="item3">
+            <div class="item3a">Installed 172 times</div>
+            <div class="item3b">View &raquo;</div>
+        </div>      
+    </div>
+
+    <div class="container">
+        <div class="item1">
+            <div>
+                <img src="https://static-00.iconduck.com/assets.00/mailchimp-icon-512x512-hr8bvtl6.png" alt="stripe" style="height:80px">
+            </div>
+            <div class="item1a">
+                <p class="name">Mailchimp</p>
+                <p class="service">Project Management</p>
+                <p class="rating"><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i></p>
+            </div>
+        </div>
+        <div class="item2"><b>Capture and sync subscribers from your mailchimp platform to ours with ease.</b></div>
+        <div class="item3">
+            <div class="item3a">Installed 1234 times</div>
+            <div class="item3b">View &raquo;</div>
+        </div>      
+    </div>
+
+    <div class="container">
+        <div class="item1">
+            <div>
+                <img src="https://static-00.iconduck.com/assets.00/dropbox-rounded-icon-2048x2048-8gdnefgc.png" alt="stripe" style="height:80px">
+            </div>
+            <div class="item1a">
+                <p class="name">Dropbox</p>
+                <p class="service">File Management</p>
+                <p class="rating"><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i></p>
+            </div>
+        </div>
+        <div class="item2"><b>Use dropbox to sync your photos to our platform and share it with others.</b></div>
+        <div class="item3">
+            <div class="item3a">Installed 1234 times</div>
+            <div class="item3b">View &raquo;</div>
+        </div>      
+    </div>
+    </div>
+
+    <div class="main2">
+
+    <div class="container">
+        <div class="item1">
+            <div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM6onG0BTCip21uyKDKTTaMVp62LNJYTLV5A&s" alt="stripe" style="height:80px">
+            </div>
+            <div class="item1a">
+                <p class="name">Shopify</p>
+                <p class="service">Ecommerce</p>
+                <p class="rating"><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i></p>
+            </div>
+        </div>
+        <div class="item2"><b>Sell you items ease with having any website with our free platform.</b></div>
+        <div class="item3">
+            <div class="item3a">Installed 1234 times</div>
+            <div class="item3b">View &raquo;</div>
+        </div>      
+    </div>
+
+    <div class="container">
+        <div class="item1">
+            <div>
+                <img src="https://cdn-icons-png.freepik.com/512/5968/5968801.png" alt="stripe" style="height:80px">
+            </div>
+            <div class="item1a">
+                <p class="service">Atlassian</p>
+                <p class="service">Project Management</p>
+                <p class="rating"><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i></p>
+            </div>
+        </div>
+        <div class="item2"><b>Developing productd for developers, Project managers and architects.</b></div>
+        <div class="item3">
+            <div class="item3a">Installed 345 times</div>
+            <div class="item3b">View &raquo;</div>
+        </div>      
+    </div>
+
+    <div class="container">
+        <div class="item1">
+            <div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlLkL2wQi-7hD29uGNEsB2GzxPz4_iS37now&s" alt="stripe" style="height:80px">
+            </div>
+            <div class="item1a">
+                <p class="name">Salesforce</p>
+                <p class="service">Payment Management</p>
+                <p class="rating"><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i></p>
+            </div>
+        </div>
+        <div class="item2"><b>Developing products for developers,project managers and architects</b></div>
+        <div class="item3">
+            <div class="item3a">Installed 3452 times</div>
+            <div class="item3b">View &raquo;</div>
+        </div>      
+    </div>
+  </div>
+  </div>
+
+</body>
+</html>

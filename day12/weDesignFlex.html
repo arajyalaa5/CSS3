@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-box</title>
+    <style>
+        body{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+           
+        }
+
+        .main{
+            border-radius: 15px;
+            width:1000px;
+            height: 500px;
+            margin:40px 120px;
+            /* border: 2px solid black; */
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+           
+        }
+
+        .item:hover{
+            background-color: rgb(103, 160, 165);
+        }
+
+
+        .nav{
+            width:100%;
+            display: flex;
+            justify-content:space-between;
+              
+        }
+
+        .nav-right{
+            display: flex;
+
+        }
+
+        .item{
+            margin: 30px 30px;
+            padding:10px;
+        }
+
+        .btn{
+            background-color: rgb(110, 13, 55);;
+            color:white;
+            border-radius: 20px;
+        }
+
+    
+         .section{
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 10px;
+            margin: 0px 30px;
+            
+         }
+
+         .txt{
+            font-size:38px;
+            font-weight:600;
+         }
+
+         .text{
+            padding-top: 60px;
+         }
+
+         .lorem{
+            padding-top: 10px;
+            padding-bottom: 10px;
+            line-height: 1.5;
+         }
+
+         .btn_name{
+            background-color: rgb(110, 13, 55);
+            color:white;
+            border-radius: 20px;
+            text-align: center;
+            width: 120px;
+            padding: 10px;
+
+         }
+
+         span{
+            font-weight: 600;
+            margin-left: 4px;
+           
+         }
+
+         .item1{
+            word-spacing: 80px;
+
+         }
+
+         /* img{
+            animation-name: move;
+            animation-duration:1s;
+            animation-iteration-count: infinite;
+            animation-delay: 1s;
+         }
+
+         @keyframes move{
+            0%{
+              
+                transform:translate(0);
+
+            }
+
+            25%{
+                transform:translateY(-30px);
+            }
+
+            50%{
+                 transform:translate(-40px);
+            }
+
+            100%{
+                transform:translateY(0);
+            
+
+        } */
+       
+    </style>
+</head>
+<body>
+       <div class="main">
+       <div class="nav">
+            <div class="item item1"><i>YOUR<span>Website</span></i></div>
+            <div class="nav-right">
+            <div class="item">Home</div>
+            <div class="item">About Us</div>
+            <div class="item">Work</div>
+            <div class="item">Info</div>
+            <div class="item btn">Get Started</div>
+
+            </div>
+        </div>
+       
+        <div class="section">
+            <div class="text">
+                <div class="txt">Website</div>
+                <div class="txt">Design</div>
+                <div class="lorem">Lorem ipsum dolor sit amet, consectetur<br> adipicing elit. Sed eget libero feugiat, faucibus<br> libero id, scelerisque quam. </div>
+                <div class="btn_name">Button Name</div>
+            </div>
+
+            <div class="picture">
+                <img src="./web design1.png" alt="img" height="400px" width="500px" >
+            </div>
+        </div>
+
+        </div>
+
+
+</body>
+</html>
